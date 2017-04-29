@@ -1,0 +1,18 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "strict": true,
+    "lib": [
+      "ES2017"
+    ],
+    "outDir": "dist"
+  },
+  "include": ["gulpfile.ts"]
+}

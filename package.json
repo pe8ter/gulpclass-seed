@@ -1,0 +1,30 @@
+{
+  "name": "gulpclass-seed",
+  "version": "1.0.0",
+  "description": "Seed project for compiling gulpfiles with gulpclass and TypeScript.",
+  "author": "Peter Safranek <pe8ter@mac.com> (http://pe8ter.com)",
+  "license": "MIT",
+  "private": true,
+  "homepage": "https://github.com/pe8ter/gulpclass-seed#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pe8ter/gulpclass-seed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pe8ter/gulpclass-seed/issues"
+  },
+  "keywords": [
+    "gulp",
+    "typescript"
+  ],
+  "scripts": {
+    "install": "npm prune"
+  },
+  "devDependencies": {
+    "@types/gulp": "^4.0.2",
+    "gulp": "^3.9.1",
+    "gulpclass": "^0.1.2",
+    "tslib": "^1.6.1",
+    "typescript": "^2.3.2"
+  }
+}
